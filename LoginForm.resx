@@ -1,0 +1,342 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LeftLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LeftLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Pristina, 20pt, style=Bold, Italic</value>
+  </data>
+  <data name="LeftLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 317</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LeftLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftLabel.Text" xml:space="preserve">
+    <value>Solar System</value>
+  </data>
+  <data name="LeftLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LeftLabel.Name" xml:space="preserve">
+    <value>LeftLabel</value>
+  </data>
+  <data name="&gt;&gt;LeftLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftLabel.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LeftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 317</value>
+  </data>
+  <data name="LeftPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Name" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TopLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 18pt</value>
+  </data>
+  <data name="TopLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 0</value>
+  </data>
+  <data name="TopLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 61</value>
+  </data>
+  <data name="TopLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TopLabel.Text" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="TopLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;TopLabel.Name" xml:space="preserve">
+    <value>TopLabel</value>
+  </data>
+  <data name="&gt;&gt;TopLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LoginPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 87</value>
+  </data>
+  <data name="LoginPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="LoginPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="LoginPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LoginPicture.Name" xml:space="preserve">
+    <value>LoginPicture</value>
+  </data>
+  <data name="&gt;&gt;LoginPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoginPicture.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PasswordPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 169</value>
+  </data>
+  <data name="PasswordPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="PasswordPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PasswordPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PasswordPicture.Name" xml:space="preserve">
+    <value>PasswordPicture</value>
+  </data>
+  <data name="&gt;&gt;PasswordPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PasswordPicture.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LoginInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10pt</value>
+  </data>
+  <data name="LoginInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 106</value>
+  </data>
+  <data name="LoginInput.PlaceholderText" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="LoginInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="LoginInput.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LoginInput.Name" xml:space="preserve">
+    <value>LoginInput</value>
+  </data>
+  <data name="&gt;&gt;LoginInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoginInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PasswordInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10pt</value>
+  </data>
+  <data name="PasswordInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 189</value>
+  </data>
+  <data name="PasswordInput.PlaceholderText" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="PasswordInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="PasswordInput.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PasswordInput.Name" xml:space="preserve">
+    <value>PasswordInput</value>
+  </data>
+  <data name="&gt;&gt;PasswordInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PasswordInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EnterButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnterButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EnterButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt</value>
+  </data>
+  <data name="EnterButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 255</value>
+  </data>
+  <data name="EnterButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 44</value>
+  </data>
+  <data name="EnterButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EnterButton.Text" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="&gt;&gt;EnterButton.Name" xml:space="preserve">
+    <value>EnterButton</value>
+  </data>
+  <data name="&gt;&gt;EnterButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnterButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EnterButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RegistrationButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RegistrationButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RegistrationButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt</value>
+  </data>
+  <data name="RegistrationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 255</value>
+  </data>
+  <data name="RegistrationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 44</value>
+  </data>
+  <data name="RegistrationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="RegistrationButton.Text" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Name" xml:space="preserve">
+    <value>RegistrationButton</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>507, 317</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LoginForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

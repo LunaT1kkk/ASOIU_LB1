@@ -1,0 +1,640 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="find_nameP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 158</value>
+  </data>
+  <data name="find_nameP.PlaceholderText" xml:space="preserve">
+    <value>Введите параметр</value>
+  </data>
+  <data name="find_nameP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="find_nameP.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;find_nameP.Name" xml:space="preserve">
+    <value>find_nameP</value>
+  </data>
+  <data name="&gt;&gt;find_nameP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;find_nameP.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;find_nameP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="findPlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 153</value>
+  </data>
+  <data name="findPlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 36</value>
+  </data>
+  <data name="findPlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="findPlanet.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="&gt;&gt;findPlanet.Name" xml:space="preserve">
+    <value>findPlanet</value>
+  </data>
+  <data name="&gt;&gt;findPlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findPlanet.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;findPlanet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clsFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 210</value>
+  </data>
+  <data name="clsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 31</value>
+  </data>
+  <data name="clsFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="clsFilter.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="&gt;&gt;clsFilter.Name" xml:space="preserve">
+    <value>clsFilter</value>
+  </data>
+  <data name="&gt;&gt;clsFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clsFilter.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;clsFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="deletePlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 76</value>
+  </data>
+  <data name="deletePlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="deletePlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="deletePlanet.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;deletePlanet.Name" xml:space="preserve">
+    <value>deletePlanet</value>
+  </data>
+  <data name="&gt;&gt;deletePlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deletePlanet.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;deletePlanet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="updatePlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 41</value>
+  </data>
+  <data name="updatePlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 29</value>
+  </data>
+  <data name="updatePlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="updatePlanet.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="&gt;&gt;updatePlanet.Name" xml:space="preserve">
+    <value>updatePlanet</value>
+  </data>
+  <data name="&gt;&gt;updatePlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;updatePlanet.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;updatePlanet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="addPlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 6</value>
+  </data>
+  <data name="addPlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 29</value>
+  </data>
+  <data name="addPlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="addPlanet.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;addPlanet.Name" xml:space="preserve">
+    <value>addPlanet</value>
+  </data>
+  <data name="&gt;&gt;addPlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addPlanet.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;addPlanet.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="idP.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="idP.HeaderText" xml:space="preserve">
+    <value>idP</value>
+  </data>
+  <data name="idP.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="idP.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="PlanetName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PlanetName.HeaderText" xml:space="preserve">
+    <value>Planet Name</value>
+  </data>
+  <data name="PlanetName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PlanetName.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="PlanetWeight.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PlanetWeight.HeaderText" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="PlanetWeight.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PlanetWeight.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="PlanetLife.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PlanetLife.HeaderText" xml:space="preserve">
+    <value>Life</value>
+  </data>
+  <data name="PlanetLife.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PlanetLife.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewPlanet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="dataGridViewPlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dataGridViewPlanet.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridViewPlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 263</value>
+  </data>
+  <data name="dataGridViewPlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPlanet.Name" xml:space="preserve">
+    <value>dataGridViewPlanet</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPlanet.Parent" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPlanet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPlanet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 269</value>
+  </data>
+  <data name="tabPlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPlanet.Text" xml:space="preserve">
+    <value>Planet</value>
+  </data>
+  <data name="&gt;&gt;tabPlanet.Name" xml:space="preserve">
+    <value>tabPlanet</value>
+  </data>
+  <data name="&gt;&gt;tabPlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPlanet.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPlanet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="find_book_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 164</value>
+  </data>
+  <data name="find_book_name.PlaceholderText" xml:space="preserve">
+    <value>Введите параметр</value>
+  </data>
+  <data name="find_book_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="find_book_name.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;find_book_name.Name" xml:space="preserve">
+    <value>find_book_name</value>
+  </data>
+  <data name="&gt;&gt;find_book_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;find_book_name.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;find_book_name.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FIndBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FIndBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 159</value>
+  </data>
+  <data name="FIndBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 36</value>
+  </data>
+  <data name="FIndBook.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="FIndBook.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="&gt;&gt;FIndBook.Name" xml:space="preserve">
+    <value>FIndBook</value>
+  </data>
+  <data name="&gt;&gt;FIndBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FIndBook.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;FIndBook.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clsFilterBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clsFilterBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 210</value>
+  </data>
+  <data name="clsFilterBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 35</value>
+  </data>
+  <data name="clsFilterBook.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="clsFilterBook.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="&gt;&gt;clsFilterBook.Name" xml:space="preserve">
+    <value>clsFilterBook</value>
+  </data>
+  <data name="&gt;&gt;clsFilterBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clsFilterBook.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;clsFilterBook.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="deleteBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 82</value>
+  </data>
+  <data name="deleteBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="deleteBook.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="deleteBook.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;deleteBook.Name" xml:space="preserve">
+    <value>deleteBook</value>
+  </data>
+  <data name="&gt;&gt;deleteBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteBook.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;deleteBook.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="updateBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="updateBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 47</value>
+  </data>
+  <data name="updateBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 29</value>
+  </data>
+  <data name="updateBook.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="updateBook.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="&gt;&gt;updateBook.Name" xml:space="preserve">
+    <value>updateBook</value>
+  </data>
+  <data name="&gt;&gt;updateBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;updateBook.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;updateBook.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="addBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 12</value>
+  </data>
+  <data name="addBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 29</value>
+  </data>
+  <data name="addBook.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="addBook.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;addBook.Name" xml:space="preserve">
+    <value>addBook</value>
+  </data>
+  <data name="&gt;&gt;addBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addBook.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;addBook.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="idB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="idB.HeaderText" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="idB.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="idB.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="NameBook.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NameBook.HeaderText" xml:space="preserve">
+    <value>Name Book</value>
+  </data>
+  <data name="NameBook.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="NameBook.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="AutorBook.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="AutorBook.HeaderText" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="AutorBook.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AutorBook.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dataGridViewBooks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataGridViewBooks.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridViewBooks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 269</value>
+  </data>
+  <data name="dataGridViewBooks.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewBooks.Name" xml:space="preserve">
+    <value>dataGridViewBooks</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewBooks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewBooks.Parent" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewBooks.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabBooks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tabBooks.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabBooks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 269</value>
+  </data>
+  <data name="tabBooks.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabBooks.Text" xml:space="preserve">
+    <value>Books</value>
+  </data>
+  <data name="&gt;&gt;tabBooks.Name" xml:space="preserve">
+    <value>tabBooks</value>
+  </data>
+  <data name="&gt;&gt;tabBooks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabBooks.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabBooks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>812, 302</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>812, 302</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Солнечная Система</value>
+  </data>
+  <data name="&gt;&gt;idP.Name" xml:space="preserve">
+    <value>idP</value>
+  </data>
+  <data name="&gt;&gt;idP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlanetName.Name" xml:space="preserve">
+    <value>PlanetName</value>
+  </data>
+  <data name="&gt;&gt;PlanetName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlanetWeight.Name" xml:space="preserve">
+    <value>PlanetWeight</value>
+  </data>
+  <data name="&gt;&gt;PlanetWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlanetLife.Name" xml:space="preserve">
+    <value>PlanetLife</value>
+  </data>
+  <data name="&gt;&gt;PlanetLife.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idB.Name" xml:space="preserve">
+    <value>idB</value>
+  </data>
+  <data name="&gt;&gt;idB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameBook.Name" xml:space="preserve">
+    <value>NameBook</value>
+  </data>
+  <data name="&gt;&gt;NameBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AutorBook.Name" xml:space="preserve">
+    <value>AutorBook</value>
+  </data>
+  <data name="&gt;&gt;AutorBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
